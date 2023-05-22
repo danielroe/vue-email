@@ -22,26 +22,26 @@
             </e-row>
           </e-section>
           <e-section class="pt-[5px] pr-[50px] pb-[10px] pl-[60px]">
-            <e-text class="text-[14px] leading-[1.5rem]">Hi {{ username }},</e-text>
-            <e-text class="text-[14px] leading-[1.5rem]">
+            <e-text class="text-[14px] leading-[1.5]">Hi {{ username }},</e-text>
+            <e-text class="text-[14px] leading-[1.5]">
               You updated the password for your Twitch account on
               {{ formattedDate }}. If this was you, then no further action is required.
             </e-text>
-            <e-text class="text-[14px] leading-[1.5rem]">
+            <e-text class="text-[14px] leading-[1.5]">
               However if you did NOT perform this password change, please
               <e-link href="#" class="underline"> reset your account password </e-link>
               immediately.
             </e-text>
-            <e-text class="text-[14px] leading-[1.5rem]">
+            <e-text class="text-[14px] leading-[1.5]">
               Remember to use a password that is both strong and unique to your Twitch account. To
               learn more about how to create a strong and unique password,
               <e-link href="#" class="underline"> click here. </e-link>
             </e-text>
-            <e-text class="text-[14px] leading-[1.5rem]">
+            <e-text class="text-[14px] leading-[1.5]">
               Still have questions? Please contact
               <e-link href="#" class="underline"> Twitch Support </e-link>
             </e-text>
-            <e-text class="text-[14px] leading-[1.5rem]">
+            <e-text class="text-[14px] leading-[1.5]">
               Thanks,
               <br />
               Twitch Support Team
