@@ -73,19 +73,16 @@ import {
   EHead,
   EHtml,
   EText,
-  EButton,
   EContainer,
   EPreview,
   EBody,
   ESection,
   EImg,
-  EHeading,
   ELink,
   EColumn,
   ERow,
-  EHr,
   ETailwind,
-} from '../../src';
+} from 'vue-email';
 
 interface Props {
   username?: string;
