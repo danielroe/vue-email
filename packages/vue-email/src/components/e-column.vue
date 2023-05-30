@@ -5,9 +5,9 @@
 </template>
 
 <script lang="ts" setup>
-import type { HTMLAttributes } from 'vue';
+import type { TdHTMLAttributes } from 'vue';
 
-interface Props extends /* @vue-ignore */ Omit<HTMLAttributes, 'style'> {
+interface Props extends /* @vue-ignore */ Omit<TdHTMLAttributes, 'style'> {
   style?: string | object;
 }
 
