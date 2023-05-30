@@ -21,7 +21,7 @@ import type { LinkHTMLAttributes } from 'vue';
 interface Props extends /* @vue-ignore */ Omit<LinkHTMLAttributes, 'style'> {
   href: string;
   target?: string;
-  style?: string | object;
+  style?: object;
   pX?: number;
   pY?: number;
 }
