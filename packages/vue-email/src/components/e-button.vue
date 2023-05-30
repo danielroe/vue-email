@@ -16,12 +16,12 @@
 
 <script lang="ts" setup>
 import { pxToPt, styleToString } from '../utils';
-import type { HTMLAttributes } from 'vue';
+import type { LinkHTMLAttributes } from 'vue';
 
-interface Props extends /* @vue-ignore */ Omit<HTMLAttributes, 'style'> {
+interface Props extends /* @vue-ignore */ Omit<LinkHTMLAttributes, 'style'> {
   href: string;
   target?: string;
-  style?: object;
+  style?: string | object;
   pX?: number;
   pY?: number;
 }
